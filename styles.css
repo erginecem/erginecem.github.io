@@ -1,0 +1,166 @@
+
+
+
+font-family: {
+  LM Roman, Times, serif;
+}
+
+
+
+
+
+
+a[href$=jpg]:link, 
+a[href$=jpeg]:link, 
+a[href$=png]:link, 
+a[href$=gif]:link{
+        background-color: none;
+text-decoration: none;
+border: none;
+padding: none;
+        }
+
+
+a[href$=jpg]:visited, 
+a[href$=jpeg]:visited, 
+a[href$=png]:visited, 
+a[href$=gif]:visited{
+        background-color: none;
+text-decoration: none;
+border: none;
+padding: none;
+        }
+
+
+a[href]:hover, 
+a[href]:hover, 
+a[href]:hover, 
+a[href]:hover {
+        background-color: none;
+text-decoration: none;
+border: none;
+padding: none;
+        }
+
+div.gallery {
+  margin: 5px;
+  border: none;
+  float: left;
+  max-width:  500px;
+}
+
+div.gallery:hover {
+  border: none;
+max-width: 100%;
+  height: auto;
+}
+
+div.gallery img {
+  max-width: 100%;
+  height: auto;
+ 
+  border: none;
+  float: left;
+  }
+
+
+
+a:link, a:visited {
+  background-color: white;
+  border-color: black;
+  border-style: dashed;
+  border-width: 2px;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+.capture2 {
+  background-image: url("capture2.jpg");
+  background-size: 40%;
+ background-repeat: no-repeat;
+background-position: right top;
+  
+}
+
+
+
+
+
+h1, h2 {
+  width: 210px;
+  margin: auto;
+  background-color: white;
+  display: block;
+}
+
+
+
+h1   {
+  background-color: none;
+  color: black;
+  font-family: LM Roman;
+  font-size: 200%;
+  margin: 10px;
+}
+
+h2   {
+  background-color: none;
+  color: black;
+  font-family: LM Roman;
+  margin: 10px;
+  text-decoration: none;
+}
+
+h3   {
+  width: 650px; 
+  display:block; 
+  background-color: white;
+  color: black;
+  font-family: LM Roman;
+  margin: 10px;
+}
+
+h4   {
+  color: black;
+  font-family: LM Roman;
+  margin: 10px;
+}
+
+p    {
+  color: black;
+  font-family: LM Roman; 
+  margin: 10px;
+}
+
+ul {
+
+color: black;
+font-family: LM Roman;
+margin: 10px;
+
+}
+
+#Ecem {
+  margin-left:10px;
+}
+
+
+
+.footer {
+  
+  max-width: 100%;
+background-color: black;
+  margin: none;
+color: white;
+  text-align: center;
+font-family: LM Roman;
+  padding: 20px;
+
+}
