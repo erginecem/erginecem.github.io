@@ -156,15 +156,16 @@ margin: 10px;
 }
 
 
-
 .footer {
+  display: flex;
+  justify-content: space-between;
+}
 
-  max-width: 100%;
-background-color: black;
-  margin: none;
-color: white;
+.footer-item {
+  color: white;
   text-align: center;
-font-family: LM Roman;
-  padding: 20px;
-
+  background-color: black;
+  height: 50px;
+  flex: 1;
+  padding-top: 20px;
 }
