@@ -1,4 +1,9 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
 font-family: {
@@ -6,62 +11,6 @@ font-family: {
 }
 
 
-
-
-
-
-a[href$=jpg]:link, 
-a[href$=jpeg]:link, 
-a[href$=png]:link, 
-a[href$=gif]:link{
-        background-color: none;
-text-decoration: none;
-border: none;
-padding: none;
-        }
-
-
-a[href$=jpg]:visited, 
-a[href$=jpeg]:visited, 
-a[href$=png]:visited, 
-a[href$=gif]:visited{
-        background-color: none;
-text-decoration: none;
-border: none;
-padding: none;
-        }
-
-
-a[href]:hover, 
-a[href]:hover, 
-a[href]:hover, 
-a[href]:hover {
-        background-color: none;
-text-decoration: none;
-border: none;
-padding: none;
-        }
-
-div.gallery {
-  margin: 5px;
-  border: none;
-  float: left;
-  max-width:  500px;
-}
-
-div.gallery:hover {
-  border: none;
-max-width: 100%;
-  height: auto;
-}
-
-div.gallery img {
-  max-width: 100%;
-  height: auto;
- 
-  border: none;
-  float: left;
-  }
 
 
 
@@ -79,6 +28,8 @@ a:link, a:visited {
 
 a:hover, a:active {
   background-color: red;
+  border-style: dashed;
+  border-width: 2px;
 }
 
 .capture2 {
@@ -86,7 +37,7 @@ a:hover, a:active {
   background-size: 40%;
  background-repeat: no-repeat;
 background-position: right top;
-  
+
 }
 
 
@@ -119,8 +70,8 @@ h2   {
 }
 
 h3   {
-  width: 650px; 
-  display:block; 
+  width: 650px;
+  display:block;
   background-color: white;
   color: black;
   font-family: LM Roman;
@@ -135,7 +86,7 @@ h4   {
 
 p    {
   color: black;
-  font-family: LM Roman; 
+  font-family: LM Roman;
   margin: 10px;
 }
 
@@ -154,7 +105,7 @@ margin: 10px;
 
 
 .footer {
-  
+
   max-width: 100%;
 background-color: black;
   margin: none;
