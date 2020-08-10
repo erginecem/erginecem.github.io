@@ -28,6 +28,9 @@ font-family: {
   display: flex;
   justify-content: left;
   justify-content: space-around;
+  margin: 5px;
+  padding: 5px;
+  overflow: hidden;
 }
 
 a:link, a:visited {
