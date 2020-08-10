@@ -1,9 +1,4 @@
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 
 font-family: {
@@ -13,6 +8,27 @@ font-family: {
 
 
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: black;
+  padding: 20px 0;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  }
+
+.menu {
+  /* For debugging */
+  width: 600px;
+  display: flex;
+  justify-content: left;
+  justify-content: space-around;
+}
 
 a:link, a:visited {
   background-color: white;
@@ -30,7 +46,7 @@ a:hover, a:active {
   background-color: red;
   border-style: dashed;
   border-width: 2px;
-   border-color: black;
+  border-color: black;
 }
 
 .capture2 {
