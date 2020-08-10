@@ -30,6 +30,7 @@ a:hover, a:active {
   background-color: red;
   border-style: dashed;
   border-width: 2px;
+   border-color: black;
 }
 
 .capture2 {
