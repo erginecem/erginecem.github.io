@@ -18,10 +18,11 @@ font-family: {
 #page-container {
   position: relative;
   min-height: 100vh;
+  
 }
 
 #content-wrap {
-  padding:20px;    /* Footer height */
+  padding-bottom: 2.5rem;   /* Footer height */
 }
 
 
@@ -110,7 +111,7 @@ background-position: right top;
 h1, h2 {
   width: 250px;
   margin: auto;
-  background-color: white;
+  background-color: none;
   display: block;
 }
 
@@ -135,7 +136,7 @@ h2   {
 h3   {
   width: 650px;
   display:block;
-  background-color: white;
+  background-color: none;
   color: black;
   font-family: LM Roman;
   margin: 10px;
