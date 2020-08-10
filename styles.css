@@ -71,6 +71,7 @@ flex-wrap: wrap;
    height: auto;
    overflow: hidden;
    padding: 5px;
+   margin:5px;
 
 
 
@@ -86,6 +87,7 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 a:hover, a:active {
@@ -93,6 +95,7 @@ a:hover, a:active {
   border-style: dashed;
   border-width: 2px;
   border-color: black;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 .capture2 {
