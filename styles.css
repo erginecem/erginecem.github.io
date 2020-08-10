@@ -21,7 +21,7 @@ font-family: {
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+  padding:20px;    /* Footer height */
 }
 
 
@@ -207,11 +207,14 @@ em{
 }
 
 #footer {
+color: white;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
-  color: white;
+  height:auto;
+  margin: auto;
+
+
   text-align: center;
   background-color: black;
     padding-top: 10px;         /* Footer height */
