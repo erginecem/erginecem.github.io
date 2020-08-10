@@ -1,18 +1,17 @@
 
 
 
-font-family: {
-  Roboto, Times, serif;
-}
-
-
-
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
 
 
 #page-container {
@@ -219,4 +218,8 @@ color: white;
   text-align: center;
   background-color: black;
     padding-top: 10px;         /* Footer height */
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
 }
