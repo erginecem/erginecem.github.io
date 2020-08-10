@@ -159,7 +159,10 @@ margin: 10px;
 .footer {
   display: flex;
   justify-content: space-around;
-
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+    flex: 1;
 }
 
 .footer-item {
@@ -168,7 +171,9 @@ margin: 10px;
   background-color: black;
   height: 50px;
   flex: 1;
-  padding-top: 20px;
+  padding: 20px;
+  width: `100%`;
+
 }
 .adress{
 
@@ -184,5 +189,5 @@ margin: 10px;
   height: 50px;
   flex: 1;
   padding-top: 20px;
-   margin-left: auto;
+
 }
