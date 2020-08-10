@@ -14,21 +14,54 @@ font-family: {
   box-sizing: border-box;
 }
 
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: white; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: white; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: white; /* Blue */
+  }
+}
+
 .menu-container {
+
   color: black;
-  padding: 20px 0;
+  
   margin: 5px;
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-start;
   }
 
 .menu {
   /* For debugging */
-  width: 600px;
+
   display: flex;
-  justify-content: left;
-  justify-content: space-around;
-  margin: 5px;
+flex-wrap: wrap;
+  justify-content: flex-start;
+
+
+}
+
+
+.menu-item {
+  width: auto;
+   height: auto;
+   overflow: hidden;
+   padding: 5px;
+
 
 
 }
