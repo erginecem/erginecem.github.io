@@ -535,6 +535,14 @@ padding-bottom: 10px;
      justify-content: flex-start;
      font-style: normal;
    }
+   .photo-grid-container {
+     display: flex;
+     justify-content: center;
+     align-self: center;
+     padding-bottom: 0px;
+     overflow: hidden;
+     padding-top: 0px;
+   }
  }
 
  /* Tablet Styles */
@@ -576,6 +584,14 @@ padding-bottom: 10px;
         display: flex;
         justify-content: flex-start;
         font-style: normal;
+      }
+      .photo-grid-container {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        padding-bottom: 0px;
+        overflow: hidden;
+        padding-top: 0px;
       }
  }
 
