@@ -285,6 +285,7 @@ flex-direction: column;
 a.item:link {
   text-decoration: none;
   color: black;
+
 }
 
 a.item:visited {
