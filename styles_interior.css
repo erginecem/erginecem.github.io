@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+::selection {
+  background: lightgreen; /* WebKit/Blink Browsers */
+}
 .page-container{
   position: relative;
   min-height: 100vh;
