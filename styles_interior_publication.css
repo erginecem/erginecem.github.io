@@ -15,7 +15,7 @@
 }
 
 .content-wrap {
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .copyright {
@@ -338,7 +338,7 @@ padding: 20px;
   bottom: 0;
   width: 100%;
   text-align: center;
-height: 100px;
+height: 80px;
    flex-shrink: 0;
 padding-top: 20px;
 }
