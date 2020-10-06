@@ -223,7 +223,7 @@ a.login:hover {
 
 
 
-.photo-grid-container {
+.photo-grid-container-main {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -231,7 +231,7 @@ a.login:hover {
   overflow: hidden;
 }
 
-.photo-grid {
+.photo-grid-main {
   max-width: 100%;
   display: flex;
   justify-content: center;
@@ -240,14 +240,14 @@ a.login:hover {
   align-self: center;
  }
 
-.photo-grid-item {
+.photo-grid-item-main {
   width: 299px;
   height: 299px;
   overflow: hidden;
 }
 
 
-.photo-grid-item img:hover {
+.photo-grid-item-main img:hover {
   transform: translate3d(-10px, -300px, 0px);
 }
 
