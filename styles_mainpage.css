@@ -257,6 +257,7 @@ a.login:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
 
 }
 
@@ -276,6 +277,13 @@ a.login:hover {
 .footer-item {
   display: flex;
   justify-content: center;
+}
+
+.copyright-bottom {
+display: absolute;
+padding-top: 10px;
+
+
 }
 
  .adres {
