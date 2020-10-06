@@ -71,7 +71,7 @@ left:0;
 writing-mode: vertical-rl;
 text-orientation: sideways-right;
 padding-left: 5px;
-top: 50%;
+top: 60%;
 }
 
 .contact {
@@ -80,7 +80,7 @@ top: 50%;
   writing-mode: vertical-rl;
   text-orientation: sideways-right;
   padding-right: 5px;
-  top: 50%;
+  top: 60%;
 }
 
 ul {
