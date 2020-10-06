@@ -233,6 +233,16 @@ a.login:hover {
   font-style: normal;
 }
 
+.photo-instagram {
+  position: relative;
+  margin: : 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+}
+
+
 .body-publications {
   display: flex;
   flex-wrap: wrap;
@@ -274,7 +284,7 @@ margin: auto;
   align-self: center;
   padding-bottom: 0px;
   overflow: hidden;
-
+flex-wrap: wrap;
   padding-top: 30px;
 }
 
@@ -543,6 +553,16 @@ padding-bottom: 10px;
      overflow: hidden;
      padding-top: 10px;
    }
+
+   .photo-instagram {
+     position: relative;
+     margin: : 0 auto;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+       font-size: 12px;
+   }
+
  }
 
  /* Tablet Styles */
@@ -592,7 +612,18 @@ padding-bottom: 10px;
         padding-bottom: 0px;
         overflow: hidden;
         padding-top: 10px;
+
       }
+
+      .photo-instagram {
+        position: relative;
+        margin: : 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+          font-size: 12px;
+      }
+
  }
 
  /* Desktop Styles */
