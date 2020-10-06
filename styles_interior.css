@@ -706,15 +706,21 @@ justify-content: space-around;
       height: auto;
      overflow: hidden;
    }
-   .photo-grid-item-main img:hover {
-      max-width: 100%;
-      height: auto;
-     overflow: hidden;
-}
-a.photo-grid-item-main:hover {
 
-     content: url('Photograph2.jpg');
+a.photo-grid-item-main-1:hover {
+     content: url('duvar.jpg');
 }
+a.photo-grid-item-main-2:hover {
+     content: url('proje1.jpg');
+}
+a.photo-grid-item-main-3:hover {
+     content: url('Photography.jpg');
+}
+
+a.photo-grid-item-main-4:hover {
+     content: url('harfler3.jpg');
+}
+
 
    .photo-instagram {
      position: relative;
@@ -821,6 +827,19 @@ a.photo-grid-item-main:hover {
        overflow: hidden;
      }
 
+     a.photo-grid-item-main-1:hover {
+          content: url('duvar.jpg');
+     }
+     a.photo-grid-item-main-2:hover {
+          content: url('proje1.jpg');
+     }
+     a.photo-grid-item-main-3:hover {
+          content: url('Photography.jpg');
+     }
+
+     a.photo-grid-item-main-4:hover {
+          content: url('harfler3.jpg');
+     }
 
 
 
