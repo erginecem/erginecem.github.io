@@ -707,6 +707,70 @@ justify-content: space-around;
      overflow: hidden;
    }
 
+   .photo-grid-item-main-1 {
+      max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: center;
+     overflow: hidden;
+   }
+ .photo-grid-item-main-1 img {
+    max-width: 100%;
+    height: auto;
+   overflow: hidden;
+ }
+
+ .photo-grid-item-main-2 {
+    max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-self: center;
+   overflow: hidden;
+ }
+.photo-grid-item-main-2 img {
+  max-width: 100%;
+  height: auto;
+ overflow: hidden;
+}
+
+.photo-grid-item-main-3 {
+  max-width: 100%;
+height: auto;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+flex-direction: row;
+align-self: center;
+ overflow: hidden;
+}
+.photo-grid-item-main-3 img {
+max-width: 100%;
+height: auto;
+overflow: hidden;
+}
+
+.photo-grid-item-main-4 {
+ max-width: 100%;
+height: auto;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+flex-direction: row;
+align-self: center;
+overflow: hidden;
+}
+.photo-grid-item-main-4 img {
+max-width: 100%;
+height: auto;
+overflow: hidden;
+}
+
 a.photo-grid-item-main-1:hover {
      content: url('duvar.jpg');
 }
@@ -819,13 +883,75 @@ a.photo-grid-item-main-4:hover {
         align-self: center;
          overflow: hidden;
        }
-
-
      .photo-grid-item-main img {
         max-width: 100%;
         height: auto;
        overflow: hidden;
      }
+
+     .photo-grid-item-main-1 {
+        max-width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-self: center;
+       overflow: hidden;
+     }
+   .photo-grid-item-main-1 img {
+      max-width: 100%;
+      height: auto;
+     overflow: hidden;
+   }
+
+   .photo-grid-item-main-2 {
+      max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: center;
+     overflow: hidden;
+   }
+ .photo-grid-item-main-2 img {
+    max-width: 100%;
+    height: auto;
+   overflow: hidden;
+ }
+
+ .photo-grid-item-main-3 {
+    max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-self: center;
+   overflow: hidden;
+ }
+.photo-grid-item-main-3 img {
+  max-width: 100%;
+  height: auto;
+ overflow: hidden;
+}
+
+.photo-grid-item-main-4 {
+   max-width: 100%;
+ height: auto;
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ flex-direction: row;
+ align-self: center;
+  overflow: hidden;
+}
+.photo-grid-item-main-4 img {
+ max-width: 100%;
+ height: auto;
+overflow: hidden;
+}
 
      a.photo-grid-item-main-1:hover {
           content: url('duvar.jpg');
