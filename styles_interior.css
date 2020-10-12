@@ -634,7 +634,7 @@ font-family: gangster;
 
 
   /* Tablet Styles */
-  @media only screen and (min-width: 350px) and (max-width: 600px) {
+  @media only screen and (min-width: 350px) and (max-width: 598px) {
 
 
     .menu-container {
